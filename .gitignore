@@ -1,0 +1,56 @@
+# Eclipse
+api-persons/.classpath
+api-persons/.project
+api-persons/.settings/
+ 
+# Intellij
+.idea/
+*.iml
+*.iws
+ 
+# Mac
+.DS_Store
+ 
+# Maven
+api-persons/log/
+api-persons/target/
+
+
+# npm
+# compiled output
+persons-client/persons-project/dist
+persons-client/persons-project/tmp
+persons-client/persons-project/out-tsc
+
+# dependencies
+persons-client/persons-project/node_modules
+
+# IDEs and editors
+persons-client/persons-project/.idea
+persons-client/persons-project/.project
+persons-client/persons-project/.classpath
+persons-client/persons-project/.c9/
+persons-client/persons-project/*.launch
+persons-client/persons-project/.settings/
+persons-client/persons-project/*.sublime-workspace
+
+# IDE - VSCodev
+persons-client/persons-project/.vscode/*
+persons-client/persons-project/!.vscode/settings.json
+persons-client/persons-project/!.vscode/tasks.json
+persons-client/persons-project/!.vscode/launch.json
+persons-client/persons-project/!.vscode/extensions.json
+
+# misc
+persons-client/persons-project/.sass-cache
+persons-client/persons-project/connect.lock
+persons-client/persons-project/coverage
+persons-client/persons-project/libpeerconnection.log
+persons-client/persons-project/npm-debug.log
+persons-client/persons-project/yarn-error.log
+persons-client/persons-projecttestem.log
+persons-client/persons-project/typings
+
+# System Files
+persons-client/persons-project/.DS_Store
+persons-client/persons-projectThumbs.db
