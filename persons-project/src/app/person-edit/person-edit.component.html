@@ -1,0 +1,47 @@
+<mat-card>
+  <form #personForm="ngForm" (ngSubmit)="save(personForm.value)">
+    <mat-card-header>
+      <mat-card-title><h2>{{person.name ? 'Edit' : 'Add'}} Person</h2></mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <input type="hidden" name="href" [(ngModel)]="person.href">        
+      <mat-form-field>
+        <input matInput placeholder="Person Name" [(ngModel)]="person.name"
+          required name="name" #name>
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="Height" [(ngModel)]="person.height"
+            required name="height" #height>
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="Mass" [(ngModel)]="person.mass"
+            required name="mass" #mass>
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="Gender" [(ngModel)]="person.gender"
+            required name="gender" #gender>
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="Hair Color" [(ngModel)]="person.hair_color"
+            required name="hair_color" #hair_color>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Planet" [(ngModel)]="person.planet"
+          required name="planet" #planet>
+      </mat-form-field>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" type="submit"
+              [disabled]="!personForm.form.valid">Save</button>
+      <button mat-raised-button color="secondary" (click)="remove(person.href)"
+        *ngIf="person.href" type="button">Delete</button>
+      
+      <a mat-button routerLink="/person-list">Cancel</a>
+    </mat-card-actions>
+    <mat-card-footer>
+      <div class="giphy">
+        <img src="http://placehold.it/120x120&text=image1" alt="{{person.name}}">
+      </div>
+    </mat-card-footer>
+  </form>
+</mat-card>

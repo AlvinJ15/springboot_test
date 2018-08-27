@@ -18,32 +18,32 @@ api-persons/target/
 
 # npm
 # compiled output
-persons-client/persons-project/dist
-persons-client/persons-project/tmp
-persons-client/persons-project/out-tsc
+persons-project/dist
+persons-project/tmp
+persons-project/out-tsc
 
 # dependencies
-persons-client/persons-project/node_modules
+persons-project/node_modules
 
 # IDEs and editors
-persons-client/persons-project/.idea
-persons-client/persons-project/.project
-persons-client/persons-project/.classpath
-persons-client/persons-project/.c9/
-persons-client/persons-project/*.launch
-persons-client/persons-project/.settings/
-persons-client/persons-project/*.sublime-workspace
+persons-project/.idea
+persons-project/.project
+persons-project/.classpath
+persons-project/.c9/
+persons-project/*.launch
+persons-project/.settings/
+persons-project/*.sublime-workspace
 
 # misc
-persons-client/persons-project/.sass-cache
-persons-client/persons-project/connect.lock
-persons-client/persons-project/coverage
-persons-client/persons-project/libpeerconnection.log
-persons-client/persons-project/npm-debug.log
-persons-client/persons-project/yarn-error.log
-persons-client/persons-projecttestem.log
-persons-client/persons-project/typings
+persons-project/.sass-cache
+persons-project/connect.lock
+persons-project/coverage
+persons-project/libpeerconnection.log
+persons-project/npm-debug.log
+persons-project/yarn-error.log
+persons-project/testem.log
+persons-project/typings
 
 # System Files
-persons-client/persons-project/.DS_Store
-persons-client/persons-projectThumbs.db
+persons-project/.DS_Store
+persons-project/Thumbs.db
