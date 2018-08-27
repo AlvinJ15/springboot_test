@@ -34,13 +34,6 @@ persons-client/persons-project/*.launch
 persons-client/persons-project/.settings/
 persons-client/persons-project/*.sublime-workspace
 
-# IDE - VSCodev
-persons-client/persons-project/.vscode/*
-persons-client/persons-project/!.vscode/settings.json
-persons-client/persons-project/!.vscode/tasks.json
-persons-client/persons-project/!.vscode/launch.json
-persons-client/persons-project/!.vscode/extensions.json
-
 # misc
 persons-client/persons-project/.sass-cache
 persons-client/persons-project/connect.lock
